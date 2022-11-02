@@ -1,0 +1,212 @@
+h1 {
+    font-family: times, serif; font-size: 5.5vh; font-style: bold; font-variant: normal; font-weight: 400; line-height: 25px;
+    color: #000;
+    cursor: default;
+    line-height: 50px;
+}h2 {
+    font-family: times, serif; font-size: 3vh; font-style: bold; font-variant: normal; font-weight: 400; line-height: 25px;
+    color: #000;
+    cursor: default;
+    line-height: 50px;
+}h3 {
+    font-family: times, serif; font-size: 2vh; font-style: bold; font-variant: normal; font-weight: 400; line-height: 15.4px;
+    color: #000;
+    cursor: default;
+    line-height: 50px;
+}p {
+    font-family: times, serif; font-size: 2vh; font-style: bold; font-variant: normal; font-weight: 400; line-height: 20px;
+    color: whitesmoke;
+    cursor: default;
+}a {
+    font-family: times, serif; font-size: 3vh; font-style: bold; font-variant: normal; font-weight: 400; line-height: 18.5714px;
+    color: #000;
+    cursor: pointer;
+}
+
+nav {
+    text-decoration: none;
+    width: 100%;
+    height: 5.5rem;
+    background: rgba(25, 25, 25, 0.99);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul {
+    text-decoration: none;
+    transform: skew(-10deg);
+    margin-top: 25px;
+}
+
+nav ul logo {
+    font-family: times, serif; font-size: 32px; font-style: bold; font-variant: normal; font-weight: 400; line-height: 18.5714px;
+    color: whitesmoke;
+    
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding:10px;
+    background-color: #252525;
+    align-items: center;
+    justify-content: left;
+    user-select: none;
+}
+
+nav ul li {
+    text-decoration: none;
+    display: inline-block;
+    line-height: 5.5rem;
+    margin-top: 5px;
+    display: inline;
+    align-items: center;
+}
+
+nav ul button {
+    font-family: times, serif; font-size: 32px; font-style: bold; font-variant: normal; font-weight: 400; line-height: 18.5714px;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding:10px;
+    background-color: #252525;
+    border: 0px;
+    align-items: center;
+    justify-content: right;
+    min-height: 56px;
+}
+
+nav ul li a {
+    text-decoration: underline;
+    color: white;
+    font-size: 30px;
+    padding:10px;
+    background-color: #252525;
+}
+
+nav logo:hover {
+    background-color:#606060;
+    cursor: default;
+}
+
+nav a:hover {
+    background-color: #606060;
+    cursor: pointer;
+}
+
+nav a.active {
+    color: darkgray;
+}
+
+nav button:hover {
+    background-color: #606060;
+    cursor: pointer;
+}
+
+body, html {
+    background-color: #f0f0f0;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0px;
+}
+
+/* HOME PAGE */
+
+#home-body {
+    width: 100%;
+    background: rgba(25, 25, 25, 0.33);
+    display: block;
+    text-align: center;
+    margin-top: 15%;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+}
+
+#home-body img {
+    border: 1px solid grey;
+}
+
+#arrow {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+/* HOBBIES PAGE */
+
+#hobbies-body {
+    text-decoration: none;
+    width: 100%;
+    background: rgba(25, 25, 25, 0.33);
+    display: inline-block;
+    align-items: top;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15%;
+    padding-top: 1vh;
+    padding-bottom: 2vh;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.column {
+    flex: 49%;
+    max-width: 49%;
+    padding: 0px 4px;
+}
+
+.column img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+.column img:hover {
+    transition: all 0.25s  ease-out;
+    opacity: 0.75;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .column {
+      flex: 50%;
+      max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+}
+
+/* COURSEWORK PAGE */
+
+#coursework-body {
+    width: 100%;
+    text-align: center;
+}
+
+#ball {
+	padding : 0px;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+	width : 100%;
+	height : 600px;
+    margin-bottom: 500px;
+}
+
+#footer {
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    text-decoration: none;
+    background: rgba(25, 25, 25, 0.99);
+    display: flex;
+    align-items: bottom;
+    justify-content: center;
+}
