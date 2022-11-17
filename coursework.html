@@ -9,36 +9,30 @@
     <script type="text/javascript" src="./scripts/theme.js"></script>
     <script src="./scripts/animation.js" type="text/javascript"> </script>
     <script src="./scripts/raphael.js" type="text/javascript"> </script>
-    <title>My First Site > Home</title>
+    <title>My First Site > Coursework</title>
 </head>
 
-<body onload="drawArrow()">
+<body onload="drawBall()">
     <nav>
         <ul>
             <logo>my first site</logo>
-            <li><a id="link" class="active" href="">home</a></li>
+            <li><a id="link" href="./index.html">home</a></li>
             <li><a id="link" href="./hobbies.html">hobbies</a></li>
-            <li><a id="link" href="./coursework.html">coursework</a></li>
+            <li><a id="link" class="active" href="">coursework</a></li>
             <li><a id="link" href="./video.html">video</a></li>
             <li><a id="link" href="./vector.html">vector</a></li>
             <button onclick="switchStyle()">switch style</button>
         </ul>
     </nav>
-    
+
     <main>
-        <div id="home-body">
-            <h1>welcome to my first site</h1>
-
-            <h2>please take a moment to look around the site to see some of my <br>
-                hobbies, simple JS animations, coursework and some nice buttons. <br><br><br></h2>
-
-            <h2>scroll to see some nice chocolate strawberries I ate the other day</h2>
-
-            <div id="arrow">
+        <div id="coursework-body">
+            <h1>coursework: shakespeare</h1>
+            <button onclick="window.location.href='./simple.html';">open coursework page</button>
+            <h1>coursework: ball animation</h1>
+            <div id="ball">
                 <!-- ball animation container -->
             </div>
-
-            <img src="./images/chocolate.jpg" width="auto" height="auto/9">
         </div>
 
         <div id="footer">
